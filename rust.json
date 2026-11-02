@@ -1,0 +1,1611 @@
+{
+	"inputのインポート": {
+		"prefix": ["proconio", "inputのインポート"],
+		"body": [
+			"use proconio::input;"
+		],
+		"description": "inputのインポート"
+	},
+	"Union-findのインポート": {
+		"prefix": ["unionfind", "Union-findのインポート"],
+		"body": [
+			"use ac_library::Dsu;"
+		],
+		"description": "union-find"
+	},
+	"Itertoolsのインポート": {
+		"prefix": ["itertools", "Itertoolsのインポート"],
+		"body": [
+			"use itertools::Itertools;"
+		],
+		"description": "union-find"
+	},
+	"HashSetのインポート": {
+		"prefix": ["hashset", "HashSetのインポート"],
+		"body": [
+			"use std::collections::HashSet;"
+		],
+		"description": "HashSetのインポート"
+	},
+	"HashMapのインポート": {
+		"prefix": ["hashmap", "HashMapのインポート"],
+		"body": [
+			"use std::collections::HashMap;"
+		],
+		"description": "HashMapのインポート"
+	},
+	"BTreeSetのインポート": {
+		"prefix": ["btreeset", "BTreeSetのインポート"],
+		"body": [
+			"use std::collections::BTreeSet;"
+		],
+		"description": "BTreeSetのインポート"
+	},
+	"BTreeMapのインポート": {
+		"prefix": ["btreemap", "BTreeMapのインポート"],
+		"body": [
+			"use std::collections::BTreeMap;"
+		],
+		"description": "BTreeMapのインポート"
+	},
+	"VecDequeのインポート": {
+		"prefix": ["vecdeque", "VecDequeのインポート"],
+		"body": [
+			"use std::collections::VecDeque;"
+		],
+		"description": "VecDequeのインポート"
+	},
+	"BinaryHeapのインポート": {
+		"prefix": ["binaryheap", "BinaryHeapのインポート"],
+		"body": [
+			"use std::collections::BinaryHeap;"
+		],
+		"description": "BinaryHeapのインポート"
+	},
+	"modint998244353のインポート": {
+		"prefix": ["modint998244353", "modint998244353のインポート"],
+		"body": [
+			"use ac_library::ModInt998244353 as Mint;"
+		],
+		"description": "modint998244353のインポート"
+	},
+	"modint1000000007のインポート": {
+		"prefix": ["modint1000000007", "modint1000000007のインポート"],
+		"body": [
+			"use ac_library::ModInt1000000007 as Mint;"
+		],
+		"description": "modint1000000007のインポート"
+	},
+	"円周率のインポート": {
+		"prefix": ["pi", "円周率のインポート"],
+		"body": [
+			"use std::f64::consts::PI;"
+		],
+		"description": "円周率のインポート"
+	},
+	"自然対数の底のインポート": {
+		"prefix": ["e", "自然対数の底のインポート"],
+		"body": [
+			"use std::f64::consts::E;"
+		],
+		"description": "自然対数の底のインポート"
+	},
+	"無限大のインポート": {
+		"prefix": ["inf", "無限大のインポート"],
+		"body": [
+			"use std::f64::INFINITY;"
+		],
+		"description": "無限大のインポート"
+	},
+	"Reverseのインポート": {
+		"prefix": ["rev", "Reverseのインポート"],
+		"body": [
+			"use std::cmp::Reverse;"
+		],
+		"description": "Reverseのインポート"
+	},
+	"Charsのインポート": {
+		"prefix": ["Chars", "Charsのインポート"],
+		"body": [
+			"use proconio::marker::Chars;"
+		],
+		"description": "Charsのインポート"
+	},
+	"Usize1のインポート": {
+		"prefix": ["Usize1", "Usize1のインポート"],
+		"body": [
+			"use proconio::marker::Usize1;"
+		],
+		"description": "Usize1のインポート"
+	},
+	"collectionsのインポート": {
+		"prefix": ["collections", "collectionsのインポート"],
+		"body": [
+			"use std::collections::*;"
+		],
+		"description": "collectionsのインポート"
+	},
+	"vec!のインポート": {
+		"prefix": ["vec", "vec!のインポート"],
+		"body": [
+			"use std::vec;"
+		],
+		"description": "vec!のインポート"
+	},
+	"hash_map::Entryのインポート": {
+		"prefix": ["hash_entry", "hash_map::Entryのインポート"],
+		"body": "use std::collections::hash_map::Entry;",
+		"description": "HashMapのEntryをインポート"
+	},
+	"btree_map::Entryのインポート": {
+		"prefix": ["btree_entry", "btree_map::Entryのインポート"],
+		"body": "use std::collections::btree_map::Entry;",
+		"description": "BTreeMapのEntryをインポート"
+	},
+	"main関数の定義": {
+		"prefix": ["main", "main関数の定義"],
+		"body": [
+			"fn main() {",
+			"\t${0:}",
+			"}"
+		],
+		"description": "main関数の定義"
+	},
+	"mod_998244353": {
+		"prefix": ["mod", "mod_998244353"],
+		"body": [
+			"const mod1 = 998_244_353;"
+		],
+		"description": "mod 998244353"
+	},
+	"mod_1000000007": {
+		"prefix": ["mod1e9", "mod_1000000007"],
+		"body": [
+			"const mod2 = 1_000_000_007;"
+		],
+		"description": "mod 1000000007"
+	},
+	"テンプレート": {
+		"prefix": ["template", "テンプレート"],
+		"body": [
+			"use proconio::input;",
+			"",
+			"fn main() {",
+			"\tinput! {",
+			"\t\tn: usize,",
+			"\t}",
+			"\t${0:}",
+			"\tprintln!(\"{}\", );",
+			"}"
+		],
+		"description": "main関数の定義"
+	},
+	"4-8近傍": {
+		"prefix": ["dxdy", "4-8近傍"],
+		"body": [
+			"const DX: [isize; 8] = [-1, 0, 1, 0, 1, 1, -1, -1];",
+			"const DY: [isize; 8] = [0, 1, 0, -1, 1, -1, 1, -1];"
+		],
+		"description": "4-8近傍"
+	},
+	"Yes": {
+		"prefix": ["Yes", "Yes(はい)", "はい"],
+		"body": "println!(\"Yes\");",
+		"description": "Yes"
+	},
+	"No": {
+		"prefix": ["No", "No(いいえ)", "いいえ"],
+		"body": "println!(\"No\");",
+		"description": "No"
+	},
+	"YES": {
+		"prefix": ["YES", "YES(大文字)", "はい大文字"],
+		"body": "println!(\"YES\");",
+		"description": "YES"
+	},
+	"YesNo": {
+		"prefix": ["YesNo", "YesNo(三項)", "三項"] ,
+		"body": "if ${1:flg} { \"Yes\" } else { \"No\" }",
+		"description": "YesNo"
+	},
+	"NO": {
+		"prefix": ["NO", "NO(大文字)", "いいえ大文字"],
+		"body": "println!(\"NO\");",
+		"description": "NO"
+	},
+	"ダメな時": {
+		"prefix": ["dame", "ダメな時"],
+		"body": "println!(\"-1\");",
+		"description": "dame"
+	},
+	"ランレングス圧縮": {
+		"prefix": ["rle", "ランレングス圧縮"],
+		"body": [
+			"fn rle<T: PartialEq + Clone>(items: &[T]) -> Vec<(T, usize)> {",
+			"\tif items.is_empty() { return vec![]; }",
+			"\t",
+			"\tlet mut res = Vec::new();",
+			"\tlet mut current_val = items[0].clone();",
+			"\tlet mut count = 0;",
+			"\t",
+			"\tfor item in items {",
+			"\t\tif *item == current_val {",
+			"\t\t\tcount += 1;",
+			"\t\t} else {",
+			"\t\t\tres.push((current_val, count));",
+			"\t\t\tcurrent_val = item.clone();",
+			"\t\t\tcount = 1;",
+			"\t\t}",
+			"\t}",
+			"\tres.push((current_val, count));",
+			"\tres",
+			"}"
+		],
+		"description": "rle"
+	},
+	"グリッド範囲内チェック": {
+		"prefix": ["grid_out", "グリッド範囲内チェック"],
+		"body": [
+			"${1:ny} >= 0 && ${1:ny} < h as isize && ${2:nx} >= 0 && ${2:nx} < w as isize"
+		],
+		"description": "グリッド範囲内チェック"
+	},
+	"println!": {
+		"prefix": ["print", "println!", "出力"],
+		"body": [
+			"println!(\"{}\", ${1:});"
+		],
+		"description": "println"
+	},
+	"逆for": {
+		"prefix": ["rfor", "逆for", "逆ループ"],
+		"body": [
+			"for i in (0..${1:n}).rev() {",
+			"\t${0:}",
+			"}"
+		],
+		"description": "逆for文"
+	},
+	"bit全探索用for": {
+		"prefix": ["bit_for", "bit全探索用for", "全探索ビット"],
+		"body": [
+			"for bit in 0..(1 << ${1:n}) {",
+			"\tfor i in 0..${1:n} {",
+			"\t\tif (bit >> i) & 1 == 1 {}",
+			"\t}",
+			"\t${0:}",
+			"}"
+		],
+		"description": "bit全探索用for文"
+	},
+	"ユークリッド距離": {
+		"prefix": ["yu", "ユークリッド距離"],
+		"body": [
+			"(${1:a1} - ${2:b1}) * (${1:a1} - ${2:b1}) + (${3:a2} - ${4:b2}) * (${3:a2} - ${4:b2})"
+		],
+		"description": "ユークリッド距離"
+	},
+	"マンハッタン距離": {
+		"prefix": ["man", "マンハッタン距離"],
+		"body": [
+			"${1:x1}.abs_diff(${2:x2}) + ${3:y1}.abs_diff(${4:y2})"
+		],
+		"description": "マンハッタン距離"
+	},
+	"最大公約数と最小公倍数を求める": {
+		"prefix": ["gcd_lcm", "最大公約数と最小公倍数を求める"],
+		"body": [
+			"#[derive(Debug, Clone, Copy)]",
+			"struct gdc_lcm {",
+			"\ta: u64,",
+			"\tb: u64,",
+			"}",
+			"",
+			"impl gcd_lcm {",
+			"\tfn new(a: u64, b: u64) -> Self {",
+			"\t\tSelf { a, b }",
+			"\t}",
+			"",
+			"\tfn gcd(&self) -> u64 {",
+			"\t\tlet mut x = self.a;",
+			"\t\tlet mut y = self.b;",
+			"\t\twhile y != 0 {",
+			"\t\t\tx %= y;",
+			"\t\t\tstd::mem::swap(&mut x, &mut y);",
+			"\t\t}",
+			"\t\tx",
+			"\t}",
+			"",
+			"\tfn lcm(&self) -> u64 {",
+			"\t\tif self.a == 0 || self.b == 0 { return 0; }",
+			"\t\tlet g = self.gcd();",
+			"\t\t(self.a / g) * self.b",
+			"\t}",
+			"}"
+		],
+		"description": "最大公約数(GCD)と最小公倍数(LCM)を計算する構造体"
+	},
+	"関数で最大公約数と最小公倍数": {
+		"prefix": [
+			"gcd_lcm",
+			"関数で最大公約数と最小公倍数"
+		],
+		"body": "//最大公約数\nfn gcd(mut a: u64, mut b: u64) -> u64 {\n    while b != 0 {\n        a %= b;\n        std::mem::swap(&mut a, &mut b);\n    }\n    a\n}\n\n\n//最小公倍数\nfn lcm(a: u64, b: u64) -> u64 {\n    if a == 0 || b == 0 {\n        return 0;\n    }\n    \n    (a / gcd(a, b)) * b\n}\n",
+		"description": "最小公倍数と最大公約数"
+	},
+	"ソートカスタム": {
+		"prefix": ["mysort", "ソートカスタム"],
+		"body": "fn compare_players(a: &(i64, usize, usize), b: &(i64, usize, usize)) -> std::cmp::Ordering {\n    b.0.cmp(&a.0) \n        .then_with(|| a.1.cmp(&b.1)) \n        .then_with(|| a.2.cmp(&b.2)) \n}\n",
+		"description": "カスタムされたソート関数"
+	},
+	"グラフDFS(非再帰)": {
+		"prefix": [
+			"dfs_graph",
+			"グラフDFS(非再帰)"
+		],
+		"body": "let mut stack = vec![0]; \nseen[0] = true;\n\nwhile let Some(v) = stack.pop() {\n    for &next_v in &g[v] {\n        if !seen[next_v] {\n            seen[next_v] = true;\n            stack.push(next_v);\n        }\n    }\n}\n",
+		"description": "DFS"
+	},
+	"グラフDFS(再帰)": {
+		"prefix": [
+			"dfs_graph_rec",
+			"dfs_graph_saiki",
+			"グラフDFS(再帰)"
+		],
+		"body": "fn dfs(v: usize, g: &Vec<Vec<usize>>, seen: &mut Vec<bool>) {\n    \n    seen[v] = true;\n\n    \n    for &next_v in &g[v] {\n        \n        if seen[next_v] {\n            continue;\n        }\n        \n        dfs(next_v, g, seen);\n    }\n}\n",
+		"description": "DFS"
+	},
+	"迷路DFS(再帰)": {
+		"prefix": [
+			"dfs_maze_rec",
+			"dfs_maze_saiki",
+			"迷路DFS(再帰)"
+		],
+		"body": "fn dfs(y: usize, x: usize, h: usize, w: usize, maze: &Vec<Vec<char>>, seen: &mut Vec<Vec<bool>>) {\n    seen[y][x] = true;\n\n    let dy = [1, 0, -1, 0];\n    let dx = [0, 1, 0, -1];\n\n    for i in 0..4 {\n        let ny = y as isize + dy[i];\n        let nx = x as isize + dx[i];\n\n        if ny >= 0 && ny < h as isize && nx >= 0 && nx < w as isize {\n            let (ny, nx) = (ny as usize, nx as usize);\n            if maze[ny][nx] != '#' && !seen[ny][nx] {\n                dfs(ny, nx, h, w, maze, seen);\n            }\n        }\n    }\n}\n",
+		"description": "DFS"
+	},
+	"迷路DFS(非再帰)": {
+		"prefix": [
+			"dfs_maze",
+			"迷路DFS(非再帰)"
+		],
+		"body": "let mut seen = vec![vec![false; w]; h];\nlet mut stack = Vec::new();\n\nstack.push(start);\n\nlet dy = [1, 0, -1, 0];\nlet dx = [0, 1, 0, -1];\n\nwhile let Some((y, x)) = stack.pop() {\n    if seen[y][x] { continue; }\n    seen[y][x] = true;\n\n\n    for i in 0..4 {\n        let ny = y as isize + dy[i];\n        let nx = x as isize + dx[i];\n\n        if ny >= 0 && ny < h as isize && nx >= 0 && nx < w as isize {\n            let ny = ny as usize;\n            let nx = nx as usize;\n\n            if maze[ny][nx] != '#' && !seen[ny][nx] {\n                stack.push((ny, nx));\n            }\n        }\n    }\n}\n",
+		"description": "DFS"
+	},
+	"グラフBFS": {
+		"prefix": [
+			"bfs_graph",
+			"グラフBFS"
+		],
+		"body": "let mut dist = vec![-1i64; n];\nlet mut que = VecDeque::new();\n\ndist[0] = 0;\nque.push_back(0);\n\nwhile let Some(v) = que.pop_front() {\n    for &next_v in &g[v] {\n        if dist[next_v] == -1 {\n            dist[next_v] = dist[v] + 1;\n            que.push_back(next_v);\n        }\n    }\n}\n",
+		"description": "BFS"
+	},
+	"迷路BFS": {
+		"prefix": [
+			"bfs_maze",
+			"迷路BFS"
+		],
+		"body": "let mut dist = vec![vec![-1i64; w]; h];\nlet mut que = VecDeque::new();\n\ndist[start.0][start.1] = 0;\nque.push_back(start);\n\nlet dy = [1, 0, -1, 0];\nlet dx = [0, 1, 0, -1];\n\nwhile let Some((y, x)) = que.pop_front() {\n    if (y, x) == goal { break; }\n\n    for i in 0..4 {\n        let ny = y as isize + dy[i];\n        let nx = x as isize + dx[i];\n\n        if ny >= 0 && ny < h as isize && nx >= 0 && nx < w as isize {\n            let ny = ny as usize;\n            let nx = nx as usize;\n\n            if maze[ny][nx] != '#' && dist[ny][nx] == -1 {\n                dist[ny][nx] = dist[y][x] + 1;\n                que.push_back((ny, nx));\n            }\n        }\n    }\n}\n",
+		"description": "BFS"
+	},
+	"Union-Find": {
+		"prefix": [
+			"uf",
+			"union_find",
+			"dsu",
+			"unionfind",
+			"Union-Find"
+		],
+		"body": "struct UnionFind {\n    parent: Vec<usize>,\n    size: Vec<usize>,\n    n: usize,\n}\n\nimpl UnionFind {\n    /// n頂点0辺の無向グラフを作成\n    /// ### 計算量 O(N)\n    fn new(n: usize) -> Self {\n        Self {\n            parent: (0..n).collect(),\n            size: vec![1; n],\n            n,\n        }\n    }\n\n    /// 頂点aの代表元を返す\n    /// ### 計算量 ならし O(α(N))\n    fn leader(&mut self, a: usize) -> usize {\n        if self.parent[a] == a {\n            a\n        } else {\n            self.parent[a] = self.leader(self.parent[a]);\n            self.parent[a]\n        }\n    }\n\n    /// 辺(a, b)を追加する\n    /// 連結だった場合はその代表元、非連結だった場合は新たな代表元を返す\n    /// ### 計算量 ならし O(α(N))\n    fn merge(&mut self, a: usize, b: usize) -> usize {\n        let pa = self.leader(a);\n        let pb = self.leader(b);\n        if pa == pb {\n            return pa;\n        }\n        let (large, small) = if self.size[pa] >= self.size[pb] {\n            (pa, pb)\n        } else {\n            (pb, pa)\n        };\n        self.parent[small] = large;\n        self.size[large] += self.size[small];\n        large\n    }\n\n    /// 頂点aとbが連結かどうかを返す\n    /// ### 計算量 ならし O(α(N))\n    fn same(&mut self, a: usize, b: usize) -> bool {\n        self.leader(a) == self.leader(b)\n    }\n\n    /// 頂点aの属する連結成分のサイズを返す\n    /// ### 計算量 ならし O(α(N))\n    fn size(&mut self, a: usize) -> usize {\n        let la = self.leader(a);\n        self.size[la]\n    }\n\n    /// グラフを連結成分に分けて返す\n    /// 戻り値は「一つの連結成分の頂点番号リスト」のリスト\n    /// ### 計算量 O(N)\n    fn groups(&mut self) -> Vec<Vec<usize>> {\n        let mut leader_to_idx = vec![self.n; self.n];\n        let mut idx = 0;\n        let mut result: Vec<Vec<usize>> = vec![];\n\n        for i in 0..self.n {\n            let l = self.leader(i);\n            if leader_to_idx[l] == self.n {\n                leader_to_idx[l] = idx;\n                idx += 1;\n                result.push(vec![]);\n            }\n            result[leader_to_idx[l]].push(i);\n        }\n        result\n    }\n}\n",
+		"description": "Union-Find"
+	},
+	"めぐる式二分探索": {
+		"prefix": [
+			"nibun",
+			"binary_search",
+			"めぐる式二分探索"
+		],
+		"body": "let mut ok = 0isize;\nlet mut ng = v.len() as isize;\n\nwhile (ok - ng).abs() > 1 {\n    let mid = (ok + ng) / 2;\n\n    if v[mid as usize] <= target {\n        ok = mid;\n    } else {\n        ng = mid;\n    }\n}\n",
+		"description": "binary_search"
+	},
+	"二分探索(upper)": {
+		"prefix": [
+			"upper_bound",
+			"pp_u",
+			"par_u"
+		],
+		"body": "partition_point(|&x| x <= ${1:})"
+	},
+	"二分探索(lower)": {
+		"prefix": [
+			"lower_bound",
+			"pp_l",
+			"par_l"
+		],
+		"body": "partition_point(|&x| x < ${1:})"
+	},
+	"最小値から取り出すBinaryHeap": {
+		"prefix": [
+			"minheap",
+			"pq",
+			"priority_queue"
+		],
+		"body": [
+			"use std::collections::BinaryHeap;",
+			"use std::cmp::Reverse;",
+			"",
+			"// 最小値を取り出すヒープ (Min-Heap) ですわ",
+			"let mut ${1:pq} = BinaryHeap::new();",
+			"",
+			"// 追加するときは Reverse で包みますわ",
+			"//${1:pq}.push(Reverse(${2:value}));",
+			"",
+			"// 取り出すときは .0 で中身を取り出しますの",
+			"//if let Some(Reverse(min_val)) = ${1:pq}.pop() {",
+			"//\t${0:// 最小値を使った処理}",
+			"//}"
+		],
+		"description": "最小値から取り出すBinaryHeap"
+	},
+	"順列全列挙": {
+		"prefix": [
+			"next_permutation",
+			"per"
+		],
+		"body": [
+			"for ${1:p} in ${2:v}.iter().permutations(${2:v}.len()).unique() {}"
+		],
+		"description": "順列"
+	},
+	"回文判定": {
+		"prefix": [
+			"palindrome",
+			"kaibun"
+		],
+		"body": "fn is_palindrome(s: &[char]) -> bool {\n    s.iter().eq(s.iter().rev())\n}\n",
+		"description": "回文判定"
+	},
+	"座標圧縮": {
+		"prefix": ["zaatu", "座標圧縮"],
+		"body": [
+			"let mut ${1:vals} = ${2:v}.clone();",
+			"${1:vals}.sort();",
+			"${1:vals}.dedup();",
+			"let ${3:compressed}: Vec<usize> = ${2:v}.iter().map(|&x| ${1:vals}.binary_search(&x).unwrap()).collect();"
+		],
+		"description": "座標圧縮"
+	},
+	"ダイクストラ法": {
+		"prefix": ["dijkstra", "ダイクストラ法"],
+		"body": [
+			"let mut dist = vec![i64::MAX; n];",
+			"let mut pq = std::collections::BinaryHeap::new();",
+			"dist[${1:start}] = 0;",
+			"pq.push(std::cmp::Reverse((0, ${1:start})));",
+			"",
+			"while let Some(std::cmp::Reverse((d, v))) = pq.pop() {",
+			"\tif d > dist[v] { continue; }",
+			"\tfor &(next_v, cost) in &g[v] {",
+			"\t\tif dist[v] + cost < dist[next_v] {",
+			"\t\t\tdist[next_v] = dist[v] + cost;",
+			"\t\t\tpq.push(std::cmp::Reverse((dist[next_v], next_v)));",
+			"\t\t}",
+			"\t}",
+			"}"
+		],
+		"description": "単一始点最短経路(Dijkstra)"
+	},
+	"chmin_chmax": {
+		"prefix": ["chminmax", "chmin_chmax"],
+		"body": [
+			"macro_rules! chmin { ($$a:expr, $$b:expr) => { if $$a > $$b { $$a = $$b; true } else { false } } }",
+			"macro_rules! chmax { ($$a:expr, $$b:expr) => { if $$a < $$b { $$a = $$b; true } else { false } } }"
+		],
+		"description": "chmin/chmax macros"
+	},
+	"chmin": {
+		"prefix": ["chmin", "chminマクロ"],
+		"body": [
+			"macro_rules! chmin { ($$a:expr, $$b:expr) => { if $$a > $$b { $$a = $$b; true } else { false } } }"
+		],
+		"description": "chmin macros"
+	},
+	"chmax": {
+		"prefix": ["chmax", "chmaxマクロ"],
+		"body": [
+			"macro_rules! chmax { ($$a:expr, $$b:expr) => { if $$a < $$b { $$a = $$b; true } else { false } } }"
+		],
+		"description": "chmax macros"
+	},
+	"素因数分解": {
+		"prefix": ["factorize", "素因数分解"],
+		"body": [
+			"fn factorize(mut n: u64) -> std::collections::HashMap<u64, u64> {",
+			"\tlet mut map = std::collections::HashMap::new();",
+			"\tlet mut i = 2;",
+			"\twhile i * i <= n {",
+			"\t\twhile n % i == 0 {",
+			"\t\t\t*map.entry(i).or_insert(0) += 1;",
+			"\t\t\tn /= i;",
+			"\t\t}",
+			"\t\ti += 1;",
+			"\t}",
+			"\tif n > 1 { map.insert(n, 1); }",
+			"\tmap",
+			"}"
+		],
+		"description": "素因数分解"
+	},
+	"nCm": {
+		"prefix": [
+			"columbination",
+			"nCm",
+			"ncm"
+		],
+		"body": "fn columbination(n: u64, r: u64, md: u64) -> u64 {\n    if r > n {\n        return 0;\n    }\n    let mut num = 1u64;\n    let mut den = 1u64;\n    for i in 0..r {\n        num = num * ((n - i) % md) % md;\n        den = den * ((i + 1) % md) % md;\n    }\n    num * power(den, md - 2, md) % md\n}\n",
+		"description": "nCm"
+	},
+	"nC2": {
+		"prefix": ["nc2", "nC2"],
+		"body": "${2:n} * (${2:n} - 1) / 2",
+		"description": "nC2"
+	},
+	"nC3": {
+		"prefix": ["nc3", "nC3"],
+		"body": "${2:n} * (${2:n} - 1) * (${2:n} - 2) / 6",
+		"description": "nC3"
+	},
+	"Entryを使ったmap削除付き更新": {
+		"prefix": [
+			"entry_dec",
+			"map_dec",
+			"map_remove"
+		],
+		"body": [
+			"match ${1:map}.entry(${2:key}) {",
+			"    Entry::Occupied(mut ent) => {",
+			"        *ent.get_mut() -= 1;",
+			"        if *ent.get() == 0 {",
+			"            ent.remove();",
+			"        }",
+			"    }",
+			"    Entry::Vacant(_) => {",
+			"        ${0:}",
+			"    }",
+			"}"
+		],
+		"description": "値をデクリメントし、0なら要素を削除"
+	},
+	"ABC": {
+		"prefix": ["ABC", "大文字ABC"],
+		"body": "let abc_big: Vec<char> = ('A'..='Z').collect();",
+		"description": "ABC"
+	},
+	"abc": {
+		"prefix": ["abc", "小文字abc"],
+		"body": "let abc_small: Vec<char> = ('a'..='z').collect();",
+		"description": "abc"
+	},
+	"進法変換 (10 to n)": {
+		"prefix": ["to_n_base", "進法変換(10→n)"],
+		"body": [
+			"fn to_n_base(mut n: u64, base: u64) -> Vec<u64> {",
+			"    if n == 0 { return vec![0]; }",
+			"    let mut res = Vec::new();",
+			"    while n > 0 {",
+			"        res.push(n % base);",
+			"        n /= base;",
+			"    }",
+			"    res.reverse();",
+			"    res",
+			"}"
+		],
+		"description": "10進法をn進法のVecに変換しますわ"
+	},
+	"進法変換 (n to 10)": {
+		"prefix": ["from_n_base", "進法変換(n→10)"],
+		"body": [
+			"fn from_n_base(digits: &[u64], base: u64) -> u64 {",
+			"    let mut res = 0;",
+			"    for &d in digits {",
+			"        res = res * base + d;",
+			"    }",
+			"    res",
+			"}"
+		],
+		"description": "n進法のVecを10進法に変換しますわ"
+	},
+	"桁数カウント": {
+		"prefix": [
+			"count_keta",
+			"count_dig"
+		],
+		"body": "fn cnt_keta(n: usize) -> usize {\n    let mut s = n;\n    let mut ans = 0;\n    while s > 0 {\n        s /= 10;\n        ans += 1;\n    }\n    ans\n}\n",
+		"description": "桁数カウント"
+	},
+	"桁和カウント": {
+		"prefix": [
+			"sum_keta",
+			"sum_dig"
+		],
+		"body": "fn cnt_keta(n: usize) -> usize {\n    let mut s = n;\n    let mut ans = 0;\n    while s > 0 {\n        ans += s % 10;\n        s /= 10;\n    }\n    ans\n}\n",
+		"description": "桁和カウント"
+	},
+	"nのm乗(mod)x": {
+		"prefix": [
+			"power",
+			"mod_pow"
+		],
+		"body": "fn power(mut n: u64, mut m: u64, x: u64) -> u64 {\n    if x == 1 {\n        return 0;\n    }\n    let mut res = 1;\n    n %= x;\n\n    while m > 0 {\n        if m % 2 == 1 {\n            res = (res * n) % x;\n        }\n        n = (n * n) % x;\n        m /= 2;\n    }\n    res\n}\n",
+		"description": "n^m%x"
+	},
+	"usizeのn桁めを取り出す": {
+		"prefix": [
+			"get_keta"
+		],
+		"body": "fn get_nth(n: usize, m: usize) -> usize {\n    let base = 10_usize.pow(m as u32);\n    (n / base) % 10\n}\n",
+		"description": "nth_get"
+	},
+	"累積和": {
+		"prefix": [
+			"ruseki",
+			"colum",
+			"prefix_sum"
+		],
+		"body": [
+			"let mut s = vec![0; n + 1];",
+			"for i in 0..n { s[i + 1] = s[i] + a[i]; }"
+		],
+		"description": "累積和"
+	},
+	"2次元累積和": {
+		"prefix": [
+			"ruseki_2d",
+			"colum_2d",
+			"prefix_sum_2d"
+		],
+		"body": [
+			"let mut s = vec![vec![0; w + 1]; h + 1];",
+			"for i in 0..h {",
+			"\tfor j in 0..w {",
+			"\t\ts[i + 1][j + 1] = s[i][j + 1] + s[i + 1][j] - s[i][j] + a[i][j];",
+			"\t}",
+			"}",
+			"// クエリ (r1,c1)-(r2,c2)の和",
+			"// s[r2][c2] - s[r1][c2] - s[r2][c1] + s[r1][c1]"
+		],
+		"description": "2次元累積和"
+	},
+	"整数平方根": {
+		"prefix": ["sqrt_i64", "整数平方根"],
+		"body": "fn isqrt(n: usize) -> usize {\n    if n < 2 {\n        return n;\n    }\n\n    let mut ok = 0;\n    let mut ng = 33_400_000_000_usize;\n\n    while ng - ok > 1 {\n        let mid = ok + (ng - ok) / 2;\n        if mid * mid <= n {\n            ok = mid;\n        } else {\n            ng = mid;\n        }\n    }\n    ok\n}\n",
+		"description": "整数で平方根を求めうr"
+	},
+	"約数の個数カウント": {
+		"prefix": [
+			"count_divisors",
+			"yakusu"
+		],
+		"body": [
+			"fn count_divisors(mut n: u64) -> u64 {",
+			"    let mut res = 1;",
+			"    let mut i = 2;",
+			"    while i * i <= n {",
+			"        if n % i == 0 {",
+			"            let mut count = 0;",
+			"            while n % i == 0 {",
+			"                count += 1;",
+			"                n /= i;",
+			"            }",
+			"            res *= count + 1;",
+			"        }",
+			"        i += 1;",
+			"    }",
+			"    if n > 1 {",
+			"        res *= 2;",
+			"    }",
+			"    res",
+			"}"
+		],
+		"description": "整数nの約数の個数を求めますわ"
+	},
+	"Char型をusizeに変換する": {
+		"prefix": ["ctu", "Char型をusizeに変換する"],
+		"body": "let ${1:d} = (${2:c} as u8 - b'0') as usize;",
+		"description": "Char to usize"
+	},
+	"Char型をアルファベットのインデックスに変換する": {
+		"prefix": ["cta", "Char型をアルファベットのインデックスに変換する"],
+		"body": "let ${1:idx} = (${2:c} as u8 - b'a') as usize;",
+		"description": "Char to alp"
+	},
+	"ts": {
+		"prefix": "あ",
+		"body": "a",
+	},
+	"エラトステネスの篩": {
+		"prefix": ["eratosthenes", "エラトステネスの篩"],
+		"body": [
+			"fn eratosthenes(n: usize) -> Vec<bool> {",
+			"    let mut is_prime = vec![true; n + 1];",
+			"    is_prime[0] = false;",
+			"    if n >= 1 { is_prime[1] = false; }",
+			"    for i in 2..=n {",
+			"        if is_prime[i] {",
+			"            let mut j = i * 2;",
+			"            while j <= n {",
+			"                is_prime[j] = false;",
+			"                j += i;",
+			"            }",
+			"        }",
+			"    }",
+			"    is_prime",
+			"}"
+		],
+		"description": "エラトステネスの篩"
+	},
+	"ワーシャルフロイド法": {
+		"prefix": ["warshall_floyd", "ワーシャルフロイド法"],
+		"body": [
+			"for k in 0..n {",
+			"    for i in 0..n {",
+			"        for j in 0..n {",
+			"            if dist[i][k] != -1 && dist[k][j] != -1 {",
+			"                let new_dist = dist[i][k] + dist[k][j];",
+			"                if dist[i][j] == -1 || new_dist < dist[i][j] {",
+			"                    dist[i][j] = new_dist;",
+			"                }",
+			"            }",
+			"        }",
+			"    }",
+			"}"
+		],
+		"description": "ワーシャルフロイド法"
+	},
+	"ベルマンフォード法": {
+		"prefix": ["bellman_ford", "ベルマンフォード法"],
+		"body": [
+			"let mut dist = vec![i64::MAX; n];",
+			"dist[${1:start}] = 0;",
+			"",
+			"for _ in 0..n - 1 {",
+			"    for v in 0..n {",
+			"        if dist[v] == i64::MAX { continue; }",
+			"        for &(next_v, cost) in &g[v] {",
+			"            if dist[v] + cost < dist[next_v] {",
+			"                dist[next_v] = dist[v] + cost;",
+			"            }",
+			"        }",
+			"    }",
+			"}"
+		],
+		"description": "単一始点最短経路(Bellman-Ford)"
+	},
+	"多重集合": {
+		"prefix": ["multiset", "多重集合"],
+		"body": "struct Multiset<T> {\n    map: BTreeMap<T, usize>,\n}\n\nimpl<T: Ord> Multiset<T> {\n    fn new() -> Self {\n        Multiset {\n            map: BTreeMap::new(),\n        }\n    }\n\n    fn insert(&mut self, value: T) {\n        *self.map.entry(value).or_insert(0) += 1;\n    }\n\n    fn remove(&mut self, value: &T) -> bool {\n        if let Some(count) = self.map.get_mut(value) {\n            if *count > 0 {\n                *count -= 1;\n                if *count == 0 {\n                    self.map.remove(value);\n                }\n                return true;\n            }\n        }\n        false\n    }\n\n    fn count(&self, value: &T) -> usize {\n        *self.map.get(value).unwrap_or(&0)\n    }\n    fn min_element(&self) -> Option<&T> {\n        self.map.keys().next()\n    }\n\n    fn max_element(&self) -> Option<&T> {\n        self.map.keys().next_back()\n    }\n\n    fn pop_min(&mut self) -> Option<T>\n    where\n        T: Clone,\n    {\n        let min_key = self.min_element()?.clone();\n\n        self.remove(&min_key);\n\n        Some(min_key)\n    }\n}\n",
+		"description": "多重集合の実装"
+	},
+	"拡張ユークリッド互除法": {
+		"prefix": ["ext_gcd", "拡張ユークリッド互除法"],
+		"body": [
+			"fn ext_gcd(a: i64, b: i64) -> (i64, i64, i64) {",
+			"    if b == 0 {",
+			"        (a, 1, 0)",
+			"    } else {",
+			"        let (g, x1, y1) = ext_gcd(b, a % b);",
+			"        let x = y1;",
+			"        let y = x1 - (a / b) * y1;",
+			"        (g, x, y)",
+			"    }",
+			"}"
+		],
+		"description": "拡張ユークリッド互除法"
+	},
+	"回文全列挙": {
+		"prefix": [
+			"kaibun_permutation",
+			"palindrome_permutation"
+		],
+		"body": "fn generate_palindromes(max_digits: u32) -> Vec<u64> {\n    let mut res = Vec::new();\n\n    for i in 0..10 {\n        res.push(i as u64);\n    }\n\n    for length in 2..=max_digits {\n        let is_odd = length % 2 != 0;\n        let half_len = (length + 1) / 2;\n\n        let start = 10_u64.pow(half_len - 1);\n        let end = 10_u64.pow(half_len);\n\n        for i in start..end {\n            let s = i.to_string();\n            let rev_s: String = s.chars().rev().collect();\n\n            let full_s = if is_odd {\n                format!(\"{}{}\", s, &rev_s[1..])\n            } else {\n                format!(\"{}{}\", s, rev_s)\n            };\n\n            if let Ok(num) = full_s.parse::<u64>() {\n                res.push(num);\n            }\n        }\n    }\n\n    res.sort();\n    res\n}\n",
+		"description": "回文の全列挙"
+	},
+	"等差数列となる要素の部分列の長さの最大値を求める": {
+		"prefix": ["tousa", "等差数列部分列長"],
+		"body": "fn get_tousa(a: &[i32]) -> usize {\n    let n = a.len();\n    if n <= 2 {\n        return n;\n    }\n\n    let mut dp = vec![HashMap::new(); n];\n    let mut max_len = 2;\n\n    for i in 0..n {\n        for j in 0..i {\n            let diff = a[i] - a[j];\n            let len = *dp[j].get(&diff).unwrap_or(&1) + 1;\n            dp[i].insert(diff, len);\n            max_len = max_len.max(len);\n        }\n    }\n    max_len\n}\n",
+		"description": "等差数列となる要素の部分列の長さ"
+	},
+	"先頭から何文字一致するか": {
+		"prefix": [
+			"sentou",
+			"prefix_match"
+		],
+		"body": "${1:a}.iter().zip(${2:b}.iter()).take_while(|(x, y)| x == y).count()",
+		"description": "2つの列が先頭から何文字一致しているかを求めます"
+	},
+	"後ろから何文字一致するか": {
+		"prefix": [
+			"ushiro",
+			"suffix_match"
+		],
+		"body": "${1:a}.iter().rev().zip(${2:b}.iter().rev()).take_while(|(x, y)| x == y).count()",
+		"description": "2つの列が後ろから何文字一致しているかを求めます"
+	},
+	"無向グラフのサイクル検出": {
+		"prefix": ["cycle_detect", "無向グラフのサイクル検出"],
+		"body": [
+			"fn has_cycle(v: usize, parent: usize, g: &Vec<Vec<usize>>, seen: &mut Vec<bool>) -> bool {",
+			"    seen[v] = true;",
+			"    for &next_v in &g[v] {",
+			"        if next_v == parent {",
+			"            continue;",
+			"        }",
+			"        if seen[next_v] || has_cycle(next_v, v, g, seen) {",
+			"            return true;",
+			"        }",
+			"    }",
+			"    false",
+			"}"
+		],
+		"description": "無向グラフのサイクル検出"
+	},
+	"有向グラフのサイクル検出": {
+		"prefix": ["cycle_detect_directed", "有向グラフのサイクル検出"],
+		"body": [
+			"fn has_cycle(v: usize, g: &Vec<Vec<usize>>, seen: &mut Vec<u8>) -> bool {",
+			"    seen[v] = 1;",
+			"    for &next_v in &g[v] {",
+			"        if seen[next_v] == 1 || (seen[next_v] == 0 && has_cycle(next_v, g, seen)) {",
+			"            return true;",
+			"        }",
+			"    }",
+			"    seen[v] = 2;",
+			"    false",
+			"}"
+		],
+		"description": "有向グラフのサイクル検出"
+	},
+	"逆元の計算": {
+		"prefix": ["mod_inv", "逆元の計算"],
+		"body": [
+			"fn mod_inv(a: u64, m: u64) -> u64 {",
+			"    let (g, x, _) = ext_gcd(a as i64, m as i64);",
+			"    if g != 1 {",
+			"        panic!(\"Inverse does not exist\");",
+			"    } else {",
+			"        ((x % m as i64 + m as i64) % m as i64) as u64",
+			"    }",
+			"}"
+		],
+		"description": "aのmにおける逆元を計算"
+	},
+	"高速素数判定": {
+		"prefix": [
+			"miller_rabin",
+			"is_prime"
+		],
+		"body": [
+			"fn miller_rabin(n: u64) -> bool {",
+			"    if n < 2 { return false; }",
+			"    if n == 2 || n == 3 { return true; }",
+			"    if n % 2 == 0 { return false; }",
+			"",
+			"    let mut d = n - 1;",
+			"    let mut r = 0;",
+			"    while d % 2 == 0 {",
+			"        d /= 2;",
+			"        r += 1;",
+			"    }",
+			"",
+			"    let bases = [2, 3, 5, 7, 11, 13, 17, 19, 23];",
+			"    for &a in &bases {",
+			"        if a >= n { break; }",
+			"",
+			"        let mut x = power(a, d, n);",
+			"        if x == 1 || x == n - 1 { continue; }",
+			"",
+			"        let mut composite = true;",
+			"        for _ in 0..r - 1 {",
+			"            x = power(x, 2, n);",
+			"            if x == n - 1 { composite = false; break; }",
+			"        }",
+			"",
+			"        if composite { return false; }",
+			"    }",
+			"",
+			"    true",
+			"}"
+		],
+		"description": "高速素数判定(Miller-Rabin)"
+	},
+	"クラスカル法": {
+		"prefix": ["kruskal", "クラスカル法"],
+		"body": [
+			"let mut edges = Vec::new();",
+			"for i in 0..m {",
+			"    let (u, v, w) = (${1:input});",
+			"    edges.push((w, u, v));",
+			"}",
+			"edges.sort();",
+			"",
+			"let mut uf = UnionFind::new(n);",
+			"let mut total_cost = 0;",
+			"",
+			"for (w, u, v) in edges {",
+			"    if uf.unite(u, v) {",
+			"        total_cost += w;",
+			"    }",
+			"}"
+		],
+		"description": "クラスカル法による最小全域木"
+	},
+	"プリム法": {
+		"prefix": ["prim", "プリム法"],
+		"body": [
+			"let mut dist = vec![i64::MAX; n];",
+			"let mut pq = std::collections::BinaryHeap::new();",
+			"dist[0] = 0;",
+			"pq.push(std::cmp::Reverse((0, 0)));",
+			"",
+			"let mut total_cost = 0;",
+			"",
+			"while let Some(std::cmp::Reverse((d, v))) = pq.pop() {",
+			"\tif d > dist[v] { continue; }",
+			"\ttotal_cost += d;",
+			"\tfor &(next_v, cost) in &g[v] {",
+			"\t\tif dist[next_v] > cost {",
+			"\t\t\tdist[next_v] = cost;",
+			"\t\t\tpq.push(std::cmp::Reverse((cost, next_v)));",
+			"\t\t}",
+			"\t}",
+			"}"
+		],
+		"description": "プリム法による最小全域木"
+	},
+	"input_usize": {
+		"prefix": ["inp_u", "input_usize"],
+		"body": "${1:a}: usize,",
+		"description": "usizeのインプット"
+	},
+	"input_i64": {
+		"prefix": ["inp_i", "input_i64"],
+		"body": "${1:a}: i64,",
+		"description": "i64のインプット"
+	},
+	"input_vec_usize": {
+		"prefix": ["inp_vec_u", "input_vec_usize"],
+		"body": "${1:a}: [usize; ${2:n}],",
+		"description": "Vec<usize>のインプット"
+	},
+	"input_vec_i64": {
+		"prefix": ["inp_vec_i", "input_vec_i64"],
+		"body": "${1:a}: [i64; ${2:n}],",
+		"description": "Vec<i64>のインプット"
+	},
+	"input_tuple_vec_usize": {
+		"prefix": ["inp_tuple_vec_u", "input_tuple_vec_usize"],
+		"body": "${1:a}: [(usize, usize); ${2:n}],",
+		"description": "Vec<(usize, usize)>のインプット"
+	},
+	"input_tuple_vec_i64": {
+		"prefix": ["inp_tuple_vec_i", "input_tuple_vec_i64"],
+		"body": "${1:a}: [(i64, i64); ${2:n}],",
+		"description": "Vec<(i64, i64)>のインプット"
+	},
+	"input_tuple3_vec_usize": {
+		"prefix": ["inp_tuple3_vec_u", "input_tuple3_vec_usize"],
+		"body": "${1:a}: [(usize, usize, usize); ${2:n}],",
+		"description": "Vec<(usize, usize, usize)>のインプット"
+	},
+	"input_tuple3_vec_i64": {
+		"prefix": ["inp_tuple3_vec_i", "input_tuple3_vec_i64"],
+		"body": "${1:a}: [(i64, i64, i64); ${2:n}],",
+		"description": "Vec<(i64, i64, i64)>のインプット"
+	},
+	"input_vec_vec_usize": {
+		"prefix": ["inp_vec_vec_u", "input_vec_vec_usize"],
+		"body": "${1:a}: [[usize; ${3:w}]; ${2:h}],",
+		"description": "Vec<Vec<usize>>のインプット"
+	},
+	"input_vec_vec_i64": {
+		"prefix": ["inp_vec_vec_i", "input_vec_vec_i64"],
+		"body": "${1:a}: [[i64; ${3:w}]; ${2:h}],",
+		"description": "Vec<Vec<i64>>のインプット"
+	},
+	"超高速素因数分解(n^1/4)": {
+		"prefix": ["speed_soin_su-_bunkai", "超高速素因数分解(n^1/4)"],
+		"body": "fn power(mut a: u128, mut b: u128, m: u128) -> u128 {\n    let mut res = 1;\n    a %= m;\n    while b > 0 {\n        if b % 2 == 1 {\n            res = (res * a) % m;\n        }\n        a = (a * a) % m;\n        b /= 2;\n    }\n    res\n}\n\n// ミラー・ラビン素数判定 (u64範囲なら確定)\nfn is_prime(n: u64) -> bool {\n    if n < 2 {\n        return false;\n    }\n    if n == 2 || n == 3 {\n        return true;\n    }\n    if n % 2 == 0 {\n        return false;\n    }\n    let mut d = n - 1;\n    let mut s = 0;\n    while d % 2 == 0 {\n        d /= 2;\n        s += 1;\n    }\n\n    // u64の範囲で決定的な判定ができるベース\n    let bases = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37];\n    for &a in &bases {\n        if n <= a {\n            break;\n        }\n        let mut x = power(a as u128, d as u128, n as u128) as u64;\n        if x == 1 || x == n - 1 {\n            continue;\n        }\n        let mut composite = true;\n        for _ in 0..s - 1 {\n            x = (x as u128 * x as u128 % n as u128) as u64;\n            if x == n - 1 {\n                composite = false;\n                break;\n            }\n        }\n        if composite {\n            return false;\n        }\n    }\n    true\n}\n\n// 最大公約数\nfn gcd(mut a: u64, mut b: u64) -> u64 {\n    while b != 0 {\n        a %= b;\n        std::mem::swap(&mut a, &mut b);\n    }\n    a\n}\n\n// ポラード・ロー法 (約数を1つ見つける)\nfn pollard_rho(n: u64) -> u64 {\n    if n % 2 == 0 {\n        return 2;\n    }\n    if is_prime(n) {\n        return n;\n    }\n\n    let mut x = 2;\n    let mut y = 2;\n    let mut d = 1;\n    let mut c = 1;\n\n    let f = |x: u64, c: u64, n: u64| -> u64 {\n        ((x as u128 * x as u128 + c as u128) % n as u128) as u64\n    };\n\n    loop {\n        x = f(x, c, n);\n        y = f(f(y, c, n), c, n);\n        d = gcd(if x > y { x - y } else { y - x }, n);\n        if d == n {\n            // 失敗したら定数 c を変えてやり直し\n            x = 2;\n            y = 2;\n            c += 1;\n            continue;\n        }\n        if d > 1 {\n            return d;\n        }\n    }\n}\n\n// 最終的な素因数分解関数\nfn factorize(n: u64, factors: &mut Vec<u64>) {\n    if n == 1 {\n        return;\n    }\n    if is_prime(n) {\n        factors.push(n);\n        return;\n    }\n    let d = pollard_rho(n);\n    factorize(d, factors);\n    factorize(n / d, factors);\n}\n",
+		"description": "n^1/4の時間で素因数分解を行うポラード・ロー法の実装"
+	},
+	"tupleを降順-昇順ソート": {
+		"prefix": ["tuple_sort", "tupleを降順-昇順ソート"],
+		"body": [
+			".sort_by(|a, b| {\n        let cmp = a.0.cmp(&b.0);\n        if cmp != std::cmp::Ordering::Equal {\n            cmp\n        } else {\n            b.1.cmp(&a.1)\n        }\n    });\n"
+		],
+		"description": "タプルのベクターを、最初の要素で降順、次の要素で昇順にソートします"
+	},
+	"三乗根": {
+		"prefix": ["cbrt", "三乗根"],
+		"body": "fn cbrt(n: usize) -> usize {\n    let mut ok = 0;\n    let mut ng = 1_000_000;\n\n    while ng - ok > 1 {\n        let mid = (ok + ng) / 2;\n        if mid * mid * mid <= n {\n            ok = mid;\n        } else {\n            ng = mid;\n        }\n    }\n    ok\n}\n",
+		"description": "整数の三乗根を求める関数"
+	},
+	"グラフ構造体": {
+		"prefix": ["graph_struct", "グラフ構造体"],
+		"body": "use itertools::Itertools;\nuse proconio::input;\nuse proconio::marker::Usize1;\n\nstruct Graph {\n    n: usize,\n    edges: Vec<Vec<(usize, i64)>>,\n    h: u64,\n    directed: bool,\n}\n\nimpl Graph {\n    /// グラフを新規作成\n    /// ## 入力\n    /// * `n` - 頂点数\n    /// * `directed` - 有向/無向グラフ(有向グラフなら`true`)\n    /// ### 計算量 O(N)\n    fn new(n: usize, directed: bool) -> Self {\n        Self {\n            n,\n            edges: vec![vec![]; n],\n            h: 0,\n            directed,\n        }\n    }\n\n    /// 頂点aからbに辺を張る\n    /// ## 入力\n    /// * `a` `b` - 頂点\n    /// * `x` - コスト\n    /// ### 計算量 O(1)\n    fn add(&mut self, a: usize, b: usize, x: i64) {\n        self.edges[a].push((b, x));\n        if !self.directed {\n            self.edges[b].push((a, x));\n        }\n        self.h += 1;\n    }\n\n    /// グラフの辺の総数\n    /// ### 計算量 O(1)\n    fn edge_cnt(&self) -> u64 {\n        self.h\n    }\n\n    /// 頂点aの次数（隣接辺の数）\n    /// ### 計算量 O(1)\n    fn degree(&self, a: usize) -> usize {\n        self.edges[a].len()\n    }\n\n    /// 頂点aの隣接頂点リスト\n    /// ## 出力\n    /// 隣接頂点がある場合`Some(&Vec)` ない場合`None`\n    /// ### 計算量 O(1)\n    fn get(&self, a: usize) -> Option<&Vec<(usize, i64)>> {\n        if !self.edges[a].is_empty() {\n            Some(&self.edges[a])\n        } else {\n            None\n        }\n    }\n\n    /// 頂点sからのオイラーツアー\n    /// ## 出力\n    /// 頂点sからのオイラーツアー（頂点の訪問順列）\n    /// ### 計算量 O(N+M)\n    fn euler_tour(&self, s: usize) -> Vec<usize> {\n        let mut tour = Vec::new();\n        let mut visited = vec![false; self.n];\n\n        let mut stack = vec![(s, true)];\n\n        while let Some((v, is_pre)) = stack.pop() {\n            if is_pre {\n                if visited[v] {\n                    continue;\n                }\n                visited[v] = true;\n\n                tour.push(v);\n\n                stack.push((v, false));\n\n                for &(next_v, _) in self.edges[v].iter().rev() {\n                    if !visited[next_v] {\n                        stack.push((next_v, true));\n                    }\n                }\n            } else {\n                tour.push(v);\n            }\n        }\n        tour\n    }\n\n    /// BFSによる頂点sから各頂点への最短ステップ数\n    /// ## 出力\n    /// `vec[i]` - 頂点sから頂点iへの最短ステップ数（到達不可能なら`-1`）\n    /// ### 計算量 O(N+M)\n    fn bfs(&self, s: usize) -> Vec<i64> {\n        let mut dist = vec![-1i64; self.n];\n        let mut que = std::collections::VecDeque::new();\n        dist[s] = 0;\n        que.push_back(s);\n        while let Some(v) = que.pop_front() {\n            for &(next_v, _) in &self.edges[v] {\n                if dist[next_v] == -1 {\n                    dist[next_v] = dist[v] + 1;\n                    que.push_back(next_v);\n                }\n            }\n        }\n        dist\n    }\n\n    /// ダイクストラ法による頂点sから各頂点への最小コスト（非負コストのみ）\n    /// ## 出力\n    /// `vec[i]` - 頂点sから頂点iへの最小コスト（到達不可能なら`i64::MAX`）\n    /// ### 計算量 O((N+M) log N)\n    fn djk(&self, s: usize) -> Vec<i64> {\n        let mut dist = vec![i64::MAX; self.n];\n        let mut pq = std::collections::BinaryHeap::new();\n        dist[s] = 0;\n        pq.push(std::cmp::Reverse((0i64, s)));\n        while let Some(std::cmp::Reverse((d, v))) = pq.pop() {\n            if d > dist[v] {\n                continue;\n            }\n            for &(next_v, cost) in &self.edges[v] {\n                if dist[v] + cost < dist[next_v] {\n                    dist[next_v] = dist[v] + cost;\n                    pq.push(std::cmp::Reverse((dist[next_v], next_v)));\n                }\n            }\n        }\n        dist\n    }\n\n    /// サイクル検出（有向・無向を自動判定）\n    /// ## 出力\n    /// サイクルがあるなら`true`\n    /// ### 計算量 O(N+M)\n    fn cycle(&self) -> bool {\n        if self.directed {\n            self.cycle_directed()\n        } else {\n            self.cycle_undirected()\n        }\n    }\n\n    fn cycle_undirected(&self) -> bool {\n        fn has_cycle(\n            v: usize,\n            parent: usize,\n            g: &Vec<Vec<(usize, i64)>>,\n            seen: &mut Vec<bool>,\n        ) -> bool {\n            seen[v] = true;\n            for &(next_v, _) in &g[v] {\n                if next_v == parent {\n                    continue;\n                }\n                if seen[next_v] || has_cycle(next_v, v, g, seen) {\n                    return true;\n                }\n            }\n            false\n        }\n        let mut seen = vec![false; self.n];\n        for s in 0..self.n {\n            if !seen[s] && has_cycle(s, s, &self.edges, &mut seen) {\n                return true;\n            }\n        }\n        false\n    }\n\n    fn cycle_directed(&self) -> bool {\n        fn has_cycle(\n            v: usize,\n            g: &Vec<Vec<(usize, i64)>>,\n            seen: &mut Vec<bool>,\n            in_stack: &mut Vec<bool>,\n        ) -> bool {\n            seen[v] = true;\n            in_stack[v] = true;\n            for &(next_v, _) in &g[v] {\n                if !seen[next_v] && has_cycle(next_v, g, seen, in_stack) {\n                    return true;\n                } else if in_stack[next_v] {\n                    return true;\n                }\n            }\n            in_stack[v] = false;\n            false\n        }\n        let mut seen = vec![false; self.n];\n        let mut in_stack = vec![false; self.n];\n        for s in 0..self.n {\n            if !seen[s] && has_cycle(s, &self.edges, &mut seen, &mut in_stack) {\n                return true;\n            }\n        }\n        false\n    }\n\n    /// ワーシャルフロイド法による全頂点間最短コスト\n    /// ## 出力\n    /// `vec[i][j]` - 頂点iから頂点jへの最短コスト（到達不可能なら`i64::MAX/2`）\n    /// ### 計算量 O(N^3)\n    fn warshall(&self) -> Vec<Vec<i64>> {\n        let inf = i64::MAX / 2;\n        let mut dist = vec![vec![inf; self.n]; self.n];\n        for i in 0..self.n {\n            dist[i][i] = 0;\n        }\n        for u in 0..self.n {\n            for &(v, w) in &self.edges[u] {\n                dist[u][v] = dist[u][v].min(w);\n            }\n        }\n        for k in 0..self.n {\n            for i in 0..self.n {\n                for j in 0..self.n {\n                    if dist[i][k] < inf && dist[k][j] < inf {\n                        dist[i][j] = dist[i][j].min(dist[i][k] + dist[k][j]);\n                    }\n                }\n            }\n        }\n        dist\n    }\n\n    /// ベルマンフォード法による頂点sから各頂点への最小コスト（負のコストも可）\n    /// ## 出力\n    /// * `vec[i]` - 頂点sから頂点iへの最小コスト（到達不可能なら`i64::MAX`）\n    /// * `bool` - 負閉路が存在するなら`true`\n    /// ### 計算量 O(NM)\n    fn bellman(&self, s: usize) -> (Vec<i64>, bool) {\n        let mut dist = vec![i64::MAX; self.n];\n        dist[s] = 0;\n        for _ in 0..self.n - 1 {\n            for v in 0..self.n {\n                if dist[v] == i64::MAX {\n                    continue;\n                }\n                for &(next_v, cost) in &self.edges[v] {\n                    if dist[v] + cost < dist[next_v] {\n                        dist[next_v] = dist[v] + cost;\n                    }\n                }\n            }\n        }\n        let mut has_negative_cycle = false;\n        for v in 0..self.n {\n            if dist[v] == i64::MAX {\n                continue;\n            }\n            for &(next_v, cost) in &self.edges[v] {\n                if dist[v] + cost < dist[next_v] {\n                    has_negative_cycle = true;\n                }\n            }\n        }\n        (dist, has_negative_cycle)\n    }\n\n    /// クラスカル法による最小全域木\n    /// ## 出力\n    /// * `Some((合計コスト, 辺のリスト(頂点, 頂点, コスト)))` - 存在する場合\n    /// * `None` - 非連結で存在しない場合\n    /// ### 計算量 O(M log M)\n    fn kruskal(&self) -> Option<(i64, Vec<(usize, usize, i64)>)> {\n        let mut edges: Vec<(i64, usize, usize)> = vec![];\n        for u in 0..self.n {\n            for &(v, w) in &self.edges[u] {\n                if u < v {\n                    edges.push((w, u, v));\n                }\n            }\n        }\n        edges.sort();\n        use ac_library::Dsu;\n        let mut uf = Dsu::new(self.n);\n        let mut total_cost = 0i64;\n        let mut mst_edges = vec![];\n        for (w, u, v) in edges {\n            if !uf.same(u, v) {\n                uf.merge(u, v);\n                total_cost += w;\n                mst_edges.push((u, v, w));\n            }\n            if mst_edges.len() == self.n - 1 {\n                break;\n            }\n        }\n        if mst_edges.len() < self.n - 1 {\n            None\n        } else {\n            Some((total_cost, mst_edges))\n        }\n    }\n\n    /// 二部グラフ判定（無向グラフ用）\n    /// ## 出力\n    /// 二部グラフなら`true`\n    /// ### 計算量 O(N+M)\n    fn is_bipartite(&self) -> bool {\n        debug_assert!(!self.directed, \"is_bipartiteは無向グラフ専用です\");\n        let mut color = vec![-1i64; self.n];\n        for start in 0..self.n {\n            if color[start] != -1 {\n                continue;\n            }\n            let mut que = std::collections::VecDeque::new();\n            color[start] = 0;\n            que.push_back(start);\n            while let Some(v) = que.pop_front() {\n                for &(next_v, _) in &self.edges[v] {\n                    if color[next_v] == -1 {\n                        color[next_v] = 1 - color[v];\n                        que.push_back(next_v);\n                    } else if color[next_v] == color[v] {\n                        return false;\n                    }\n                }\n            }\n        }\n        true\n    }\n\n    /// 連結成分分解（無向グラフ用）\n    /// ## 出力\n    /// `vec[i]` - 連結成分iに含まれる頂点リスト\n    /// ### 計算量 O(N+M)\n    fn conn_comp(&self) -> Vec<Vec<usize>> {\n        debug_assert!(!self.directed, \"conn_compは無向グラフ専用です\");\n        let mut seen = vec![false; self.n];\n        let mut components = vec![];\n        for start in 0..self.n {\n            if seen[start] {\n                continue;\n            }\n            let mut component = vec![];\n            let mut stack = vec![start];\n            seen[start] = true;\n            while let Some(v) = stack.pop() {\n                component.push(v);\n                for &(next_v, _) in &self.edges[v] {\n                    if !seen[next_v] {\n                        seen[next_v] = true;\n                        stack.push(next_v);\n                    }\n                }\n            }\n            components.push(component);\n        }\n        components\n    }\n\n    /// トポロジカルソート（有向グラフ用）\n    /// ## 出力\n    /// * `Some(Vec<usize>)` - サイクルがない場合のソート結果\n    /// * `None` - サイクルが存在する場合\n    /// ### 計算量 O(N+M)\n    fn topo(&self) -> Option<Vec<usize>> {\n        debug_assert!(self.directed, \"topoは有向グラフ専用です\");\n        let mut in_degree = vec![0usize; self.n];\n        for u in 0..self.n {\n            for &(v, _) in &self.edges[u] {\n                in_degree[v] += 1;\n            }\n        }\n        let mut que = std::collections::VecDeque::new();\n        for i in 0..self.n {\n            if in_degree[i] == 0 {\n                que.push_back(i);\n            }\n        }\n        let mut result = vec![];\n        while let Some(v) = que.pop_front() {\n            result.push(v);\n            for &(next_v, _) in &self.edges[v] {\n                in_degree[next_v] -= 1;\n                if in_degree[next_v] == 0 {\n                    que.push_back(next_v);\n                }\n            }\n        }\n        if result.len() == self.n {\n            Some(result)\n        } else {\n            None\n        }\n    }\n\n    /// 木の直径（最も遠い2頂点間のステップ数）\n    /// ### 計算量 O(N+M)\n    fn tree_diameter(&self) -> i64 {\n        let farthest = |s: usize| -> usize {\n            self.bfs(s)\n                .iter()\n                .enumerate()\n                .max_by_key(|&(_, d)| d)\n                .unwrap()\n                .0\n        };\n        let u = farthest(0);\n        let v = farthest(u);\n        self.bfs(u)[v]\n    }\n}\n",
+		"description": "グラフの構造体定義と基本的な操作"
+	},
+	"グリッド回転": {
+		"prefix": ["grid_rotation", "グリッド回転"],
+		"body": "/// グリッドを時計回りに90度回転する\n/// 入力: N行M列 → 出力: M行N列\n/// 変換式: new[j][N-1-i] = old[i][j]\nfn rotate_cw<T: Clone>(grid: &Vec<Vec<T>>) -> Vec<Vec<T>> {\n    let n = grid.len();\n    let m = grid[0].len();\n    let mut new_grid = vec![vec![grid[0][0].clone(); n]; m];\n    for i in 0..n {\n        for j in 0..m {\n            new_grid[j][n - 1 - i] = grid[i][j].clone();\n        }\n    }\n    new_grid\n}\n\n/// グリッドを反時計回りに90度回転する\n/// 変換式: new[M-1-j][i] = old[i][j]\nfn rotate_ccw<T: Clone>(grid: &Vec<Vec<T>>) -> Vec<Vec<T>> {\n    let n = grid.len();\n    let m = grid[0].len();\n    let mut new_grid = vec![vec![grid[0][0].clone(); n]; m];\n    for i in 0..n {\n        for j in 0..m {\n            new_grid[m - 1 - j][i] = grid[i][j].clone();\n        }\n    }\n    new_grid\n}\n\n/// グリッドを180度回転する（上下・左右反転）\n/// 変換式: new[N-1-i][M-1-j] = old[i][j]\nfn rotate_180<T: Clone>(grid: &Vec<Vec<T>>) -> Vec<Vec<T>> {\n    let n = grid.len();\n    let m = grid[0].len();\n    let mut new_grid = vec![vec![grid[0][0].clone(); m]; n];\n    for i in 0..n {\n        for j in 0..m {\n            new_grid[n - 1 - i][m - 1 - j] = grid[i][j].clone();\n        }\n    }\n    new_grid\n}\n",
+		"description": "2次元グリッドを90度回転させる関数"
+	},
+	"グリッド座圧": {
+		"prefix": ["zaatu", "グリッド座圧"],
+		"body": "/// グリッドを指定した要素で座標圧縮する\n/// ## 返り値\n/// * `compressed` - 圧縮後のグリッド\n/// * `row_map` - 圧縮後の行インデックス → 元の行インデックス\n/// * `col_map` - 圧縮後の列インデックス → 元の列インデックス\nfn compress_grid(grid: &Vec<Vec<char>>, target: char) -> (Vec<Vec<char>>, Vec<usize>, Vec<usize>) {\n    let rows = grid.len();\n    let cols = grid[0].len();\n\n    // target が1つでも存在する行・列のインデックスを収集\n    let row_map: Vec<usize> = (0..rows)\n        .filter(|&r| grid[r].iter().any(|&c| c == target))\n        .collect();\n    let col_map: Vec<usize> = (0..cols)\n        .filter(|&c| (0..rows).any(|r| grid[r][c] == target))\n        .collect();\n\n    // 圧縮後のグリッドを構築\n    let compressed = row_map\n        .iter()\n        .map(|&r| col_map.iter().map(|&c| grid[r][c]).collect())\n        .collect();\n\n    (compressed, row_map, col_map)\n}\n",
+		"description": "グリッドを指定した要素で座標圧縮する関数"
+	},
+	"mapの値をデクリメント": {
+		"prefix": ["map_del", "mapの値をデクリメント"],
+		"body": "if let Some(count) = ${1:map}.get_mut(&${2:key}) {\n    *count -= 1;\n    if *count == 0 {\n        ${1:map}.remove(&${2:key});\n    }\n}",
+		"description": "HashMapの値をデクリメントし、0になったらキーごと消すコード"
+	},
+	"配列をインデックスと共にソート": {
+		"prefix": ["sort_with_index", "配列をインデックスと共にソート"],
+		"body": "${1:vc}.iter().enumerate().map(|(i, &v)| (v, i)).collect();",
+		"description": "配列を値でソートしつつ、元のインデックスも保持するコード"
+	},
+	"アルファベットのインデックスを取得": {
+		"prefix": ["alphabet_index", "アルファベットのインデックスを取得"],
+		"body": "(${1:c}.to_ascii_lowercase() as u32) - ('a' as u32)",
+		"description": "アルファベットの文字から0-25のインデックスを取得するコード"
+	},
+	"StringをVec<char>に変換": {
+		"prefix": ["string_to_vec_char", "StringをVec<charに変換"],
+		"body": "${1:s}.chars().collect::<Vec<char>>()",
+		"description": "StringをVec<char>に変換するコード"
+	},
+	"Nの階乗を計算": {
+		"prefix": ["kaizyou", "Nの階乗を計算"],
+		"body": "fn factorial(n: usize) -> usize {\n    (1..=n).product()\n}",
+		"description": "Nの階乗を計算する関数"
+	},
+	"約数全列挙": {
+		"prefix": ["yakusu", "約数全列挙"],
+		"body": "fn divisors(n: usize) -> Vec<usize> {\n    let mut divs = Vec::new();\n    for i in 1..=((n as f64).sqrt() as usize) {\n        if n % i == 0 {\n            divs.push(i);\n            if i != n / i {\n                divs.push(n / i);\n            }\n        }\n    }\n    divs.sort();\n    divs\n}",
+		"description": "整数Nの約数を全て列挙する関数"
+	},
+	"RollingHash": {
+		"prefix": ["rolling_hash", "RollingHash"],
+		"body": [
+			"const MOD: u64 = 1_000_000_007;",
+			"const BASE: u64 = 31;",
+			"",
+			"struct RollingHash {\n    hash: Vec<u64>,\n    power: Vec<u64>,\n}",
+			"",
+			"impl RollingHash {\n    fn new(s: &str) -> Self {\n        let n = s.len();\n        let mut hash = vec![0; n + 1];\n        let mut power = vec![1; n + 1];",
+			"",
+			"        for (i, c) in s.chars().enumerate() {\n            hash[i + 1] = (hash[i] * BASE + (c as u64 - 'a' as u64 + 1)) % MOD;\n            power[i + 1] = (power[i] * BASE) % MOD;\n        }",
+			"",
+			"        Self { hash, power }\n    }",
+			"",
+			"    fn get_hash(&self, l: usize, r: usize) -> u64 {\n        let h = (self.hash[r] + MOD - (self.hash[l] * self.power[r - l]) % MOD) % MOD;\n        h\n    }\n}"
+		],
+		"description": "文字列のローリングハッシュを計算する構造体"
+	},
+	"Index Monotonic Queue": {
+		"prefix": ["imq", "Index Monotonic Queue"],
+		"body": [
+			"use std::collections::VecDeque;",
+			"",
+			"struct IndexMonotonicQueue<T> {\n    deque: VecDeque<(usize, T)>,\n}",
+			"",
+			"impl<T: Ord> IndexMonotonicQueue<T> {\n    fn new() -> Self {\n        Self { deque: VecDeque::new() }\n    }",
+			"",
+			"    fn push(&mut self, index: usize, value: T) {\n        while let Some(&(_, ref back)) = self.deque.back() {\n            if *back < value {\n                self.deque.pop_back();\n            } else {\n                break;\n            }\n        }\n        self.deque.push_back((index, value));\n    }",
+			"",
+			"    fn pop(&mut self, index: usize) {\n        if let Some(&(front_index, _)) = self.deque.front() {\n            if front_index == index {\n                self.deque.pop_front();\n            }\n        }\n    }",
+			"",
+			"    fn max(&self) -> Option<&T> {\n        self.deque.front().map(|&(_, ref value)| value)\n    }\n}"
+		],
+		"description": "インデックス付き単調キューの実装"
+	}, 
+	"rsq_seg": {
+		"prefix": [
+			"kukannwa",
+			"rsq_seg",
+			"segtree",
+			"区間和セグ木",
+			"区間和"
+		],
+    "body": [
+      "use ac_library::{Additive, Segtree};",
+      "let mut seg = Segtree::<Additive<i64>>::from(vec![0i64; n]);",
+      "// 区間和"
+    ]
+  },
+  "rmq_seg": {
+		"prefix": [
+			"kukannsaisyouti",
+			"rmq_seg",
+			"segtree",
+			"区間最小値セグ木",
+			"区間最小"
+		],
+    "body": [
+      "use ac_library::{Min, Segtree};",
+      "let mut seg = Segtree::<Min<i64>>::from(vec![i64::MAX; n]); // 初期値に注意",
+      "// 区間最小値"
+    ]
+  },
+  "xor_seg": {
+		"prefix": [
+			"kukannxor",
+			"xor_seg",
+			"segtree",
+			"区間XORセグ木",
+			"区間XOR"
+		],
+    "body": [
+      "use ac_library::{Segtree, Monoid};",
+      "",
+      "struct Xor;",
+      "impl Monoid for Xor {",
+      "    type S = i64;",
+      "    fn identity() -> Self::S { 0 } // 0 XOR x = x",
+      "    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S { a ^ b }",
+      "}",
+      "",
+      "let mut seg = Segtree::<Xor>::from(vec![0i64; n]); // new(n)でも可(identity()=0のため)",
+      "// 区間XOR (1点更新, 自作Monoid版)"
+    ]
+  },
+
+
+  "rmaxq_seg": {
+		"prefix": [
+			"kukannsaidaiti",
+			"rmaxq_seg",
+			"segtree",
+			"区間最大値セグ木",
+			"区間最大"
+		],
+    "body": [
+      "use ac_library::{Max, Segtree};",
+      "let mut seg = Segtree::<Max<i64>>::from(vec![i64::MIN; n]); // 初期値に注意",
+      "// 区間最大値"
+    ]
+  },
+  "rmq_count_seg": {
+		"prefix": [
+			"kukannsaisyouticount",
+			"rmq_count_seg",
+			"segtree",
+			"区間最小値カウントセグ木",
+			"区間最小カウント"
+		],
+    "body": [
+      "use ac_library::{Segtree, Monoid};",
+      "",
+      "struct MinCount;",
+      "impl Monoid for MinCount {",
+      "    type S = (i64, i64); // (最小値, その個数)",
+      "    fn identity() -> Self::S { (i64::MAX, 0) }",
+      "    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {",
+      "        if a.0 < b.0 { *a }",
+      "        else if a.0 > b.0 { *b }",
+      "        else { (a.0, a.1 + b.1) }",
+      "    }",
+      "}",
+      "",
+      "let mut seg = Segtree::<MinCount>::from(vec![(1i64, 1i64); n]); // 各要素(値, 1)で初期化",
+      "// 区間最小値とその個数"
+    ]
+  },
+  "rmq_rmaxq_seg": {
+		"prefix": [
+			"kukannsaisyoutisaidaiti",
+			"rmq_rmaxq_seg",
+			"segtree",
+			"区間最小最大セグ木",
+			"区間最小最大"
+		],
+    "body": [
+      "use ac_library::{Segtree, Monoid};",
+      "",
+      "struct MinMax;",
+      "impl Monoid for MinMax {",
+      "    type S = (i64, i64); // (最小値, 最大値)",
+      "    fn identity() -> Self::S { (i64::MAX, i64::MIN) }",
+      "    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {",
+      "        (a.0.min(b.0), a.1.max(b.1))",
+      "    }",
+      "}",
+      "",
+      "let mut seg = Segtree::<MinMax>::from(vec![(0i64, 0i64); n]); // 各要素(v, v)で初期化",
+      "// 区間最小値と最大値"
+    ]
+  },
+  "inv_count_seg": {
+		"prefix": [
+			"kukannntenntousuu",
+			"inv_count_seg",
+			"segtree",
+			"区間転倒数セグ木",
+			"区間転倒数"
+		],
+    "body": [
+      "use ac_library::{Segtree, Monoid};",
+      "",
+      "struct InvCount;",
+      "impl Monoid for InvCount {",
+      "    type S = (u64, u64, u64); // (#0の数, #1の数, 転倒数)",
+      "    fn identity() -> Self::S { (0, 0, 0) }",
+      "    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {",
+      "        (a.0 + b.0, a.1 + b.1, a.2 + b.2 + a.1 * b.0)",
+      "    }",
+      "}",
+      "",
+      "let mut seg = Segtree::<InvCount>::from(vec![(0u64, 0u64, 0u64); n]); // 各要素(1,0,0)or(0,1,0)で初期化",
+      "// 0/1列の転倒数"
+    ]
+  },
+  "gcd_seg": {
+		"prefix": [
+			"kukanngcd",
+			"gcd_seg",
+			"segtree",
+			"区間最大公約数セグ木",
+			"区間GCD"
+		],
+    "body": [
+      "use ac_library::{Segtree, Monoid};",
+      "",
+      "struct Gcd;",
+      "impl Monoid for Gcd {",
+      "    type S = i64;",
+      "    fn identity() -> Self::S { 0 } // gcd(x, 0) = x",
+      "    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {",
+      "        fn gcd(a: i64, b: i64) -> i64 { if b == 0 { a } else { gcd(b, a % b) } }",
+      "        gcd(*a, *b)",
+      "    }",
+      "}",
+      "",
+      "let mut seg = Segtree::<Gcd>::from(vec![0i64; n]);",
+      "// 区間最大公約数"
+    ]
+  },
+  "raq_rmq_lazy_seg": {
+		"prefix": [
+			"kukannlazy",
+			"raq_rmq_lazy_seg",
+			"segtree",
+			"区間加算区間最小セグ木",
+			"区間加算_区間最小"
+		],
+    "body": [
+      "use ac_library::{LazySegtree, MapMonoid, Min, Monoid};",
+      "",
+      "struct RangeAddRangeMin;",
+      "impl MapMonoid for RangeAddRangeMin {",
+      "    type M = Min<i64>;",
+      "    type F = i64;",
+      "    fn identity_map() -> Self::F { 0 }",
+      "    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S { f + x }",
+      "    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f + g }",
+      "}",
+      "",
+      "let mut seg = LazySegtree::<RangeAddRangeMin>::from(vec![0i64; n]);",
+      "// 区間加算 + 区間最小値"
+    ]
+  },
+  "raq_rmaxq_lazy_seg": {
+		"prefix": [
+			"kukannlazy",
+			"raq_rmaxq_lazy_seg",
+			"segtree",
+			"区間加算区間最大セグ木",
+			"区間加算_区間最大"
+		],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Max, Monoid};",
+		"",
+		"struct RangeAddRangeMax;",
+		"impl MapMonoid for RangeAddRangeMax {",
+		"    type M = Max<i64>;",
+		"    type F = i64;",
+		"    fn identity_map() -> Self::F { 0 }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S { f + x }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f + g }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<RangeAddRangeMax>::from(vec![0i64; n]);",
+		"// 区間加算 + 区間最大値"
+		]
+	},
+	"ruq_rmaxq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"ruq_rmaxq_lazy_seg",
+				"segtree",
+				"区間更新区間最大セグ木",
+				"区間更新_区間最大"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Max, Monoid};",
+		"",
+		"struct RangeUpdateRangeMax;",
+		"impl MapMonoid for RangeUpdateRangeMax {",
+		"    type M = Max<i64>;",
+		"    type F = Option<i64>; // None = 更新なし, Some(v) = vに更新",
+		"    fn identity_map() -> Self::F { None }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        match f {",
+		"            Some(v) => *v,",
+		"            None => *x,",
+		"        }",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F {",
+		"        match f {",
+		"            Some(v) => Some(*v),",
+		"            None => *g,",
+		"        }",
+		"    }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<RangeUpdateRangeMax>::from(vec![0i64; n]);",
+		"// 区間更新 + 区間最大値"
+		]
+	},
+	"raq_rsq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"raq_rsq_lazy_seg",
+				"segtree",
+				"区間加算区間和セグ木",
+				"区間加算_区間和"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Monoid};",
+		"",
+		"struct Sum;",
+		"impl Monoid for Sum {",
+		"    type S = (i64, i64); // (合計, 要素数)",
+		"    fn identity() -> Self::S { (0, 0) }",
+		"    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S { (a.0 + b.0, a.1 + b.1) }",
+		"}",
+		"",
+		"struct RangeAddRangeSum;",
+		"impl MapMonoid for RangeAddRangeSum {",
+		"    type M = Sum;",
+		"    type F = i64;",
+		"    fn identity_map() -> Self::F { 0 }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        (x.0 + f * x.1, x.1)",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f + g }",
+		"}",
+		"",
+		"let init: Vec<(i64, i64)> = vec![(0, 1); n]; // (値, 1個)",
+		"let mut seg = LazySegtree::<RangeAddRangeSum>::from(init);",
+		"// 区間加算 + 区間和"
+		]
+	},
+	"rxq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"rxq_lazy_seg",
+				"segtree",
+				"区間XOR区間XORセグ木",
+				"区間XOR_区間XOR"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Monoid};",
+		"",
+		"struct Xor;",
+		"impl Monoid for Xor {",
+		"    type S = i64;",
+		"    fn identity() -> Self::S { 0 }",
+		"    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S { a ^ b }",
+		"}",
+		"",
+		"struct RangeXorRangeXor;",
+		"impl MapMonoid for RangeXorRangeXor {",
+		"    type M = Xor;",
+		"    type F = i64; // 一括でXORする値",
+		"    fn identity_map() -> Self::F { 0 }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S { f ^ x }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f ^ g }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<RangeXorRangeXor>::from(vec![0i64; n]);",
+		"// 区間XOR + 区間一括XOR (自作Monoid版)"
+		]
+	},
+
+
+	"ruq_rmq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"ruq_rmq_lazy_seg",
+				"segtree",
+				"区間更新区間最小セグ木",
+				"区間更新_区間最小"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Min, Monoid};",
+		"",
+		"struct RangeUpdateRangeMin;",
+		"impl MapMonoid for RangeUpdateRangeMin {",
+		"    type M = Min<i64>;",
+		"    type F = Option<i64>; // Noneなら更新なし",
+		"    fn identity_map() -> Self::F { None }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        f.unwrap_or(*x)",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F {",
+		"        f.or(*g) // 新しい更新fを優先",
+		"    }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<RangeUpdateRangeMin>::from(vec![i64::MAX; n]);",
+		"// 区間更新(代入) + 区間最小値"
+		]
+	},
+	"ruq_rmaxq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"ruq_rmaxq_lazy_seg",
+				"segtree",
+				"区間更新区間最大セグ木",
+				"区間更新_区間最大"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Max, Monoid};",
+		"",
+		"struct RangeUpdateRangeMax;",
+		"impl MapMonoid for RangeUpdateRangeMax {",
+		"    type M = Max<i64>;",
+		"    type F = Option<i64>;",
+		"    fn identity_map() -> Self::F { None }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        f.unwrap_or(*x)",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F {",
+		"        f.or(*g)",
+		"    }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<RangeUpdateRangeMax>::from(vec![i64::MIN; n]);",
+		"// 区間更新(代入) + 区間最大値"
+		]
+	},
+	"ruq_rsq_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"ruq_rsq_lazy_seg",
+				"segtree",
+				"区間更新区間和セグ木",
+				"区間更新_区間和"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Monoid};",
+		"",
+		"struct Sum;",
+		"impl Monoid for Sum {",
+		"    type S = (i64, i64); // (合計, 要素数)",
+		"    fn identity() -> Self::S { (0, 0) }",
+		"    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S { (a.0 + b.0, a.1 + b.1) }",
+		"}",
+		"",
+		"struct RangeUpdateRangeSum;",
+		"impl MapMonoid for RangeUpdateRangeSum {",
+		"    type M = Sum;",
+		"    type F = Option<i64>;",
+		"    fn identity_map() -> Self::F { None }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        match f {",
+		"            Some(v) => (v * x.1, x.1),",
+		"            None => *x,",
+		"        }",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f.or(*g) }",
+		"}",
+		"",
+		"let init: Vec<(i64, i64)> = vec![(0, 1); n];",
+		"let mut seg = LazySegtree::<RangeUpdateRangeSum>::from(init);",
+		"// 区間更新(代入) + 区間和"
+		]
+	},
+	"affine_transform_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"affine_transform_lazy_seg",
+				"segtree",
+				"区間アフィン変換セグ木",
+				"区間アフィン"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Monoid};",
+		"",
+		"struct Sum;",
+		"impl Monoid for Sum {",
+		"    type S = (i64, i64); // (合計, 要素数)",
+		"    fn identity() -> Self::S { (0, 0) }",
+		"    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S { (a.0 + b.0, a.1 + b.1) }",
+		"}",
+		"",
+		"struct Affine;",
+		"impl MapMonoid for Affine {",
+		"    type M = Sum;",
+		"    type F = (i64, i64); // (a, b): x -> a*x + b",
+		"    fn identity_map() -> Self::F { (1, 0) }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        (f.0 * x.0 + f.1 * x.1, x.1)",
+		"    }",
+		"    // g適用後にfを適用: f(g(x)) = f.0*(g.0*x + g.1) + f.1",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F {",
+		"        (f.0 * g.0, f.0 * g.1 + f.1)",
+		"    }",
+		"}",
+		"",
+		"let init: Vec<(i64, i64)> = vec![(0, 1); n];",
+		"let mut seg = LazySegtree::<Affine>::from(init);",
+		"// 区間アフィン変換(ax+b) + 区間和"
+		]
+	},
+	"flip_inv_count_lazy_seg": {
+			"prefix": [
+				"kukannlazy",
+				"flip_inv_count_lazy_seg",
+				"segtree",
+				"区間反転転倒数セグ木",
+				"区間反転_転倒数"
+			],
+		"body": [
+		"use ac_library::{LazySegtree, MapMonoid, Monoid};",
+		"",
+		"struct InvCount;",
+		"impl Monoid for InvCount {",
+		"    type S = (u64, u64, u64); // (#0の数, #1の数, 転倒数)",
+		"    fn identity() -> Self::S { (0, 0, 0) }",
+		"    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {",
+		"        (a.0 + b.0, a.1 + b.1, a.2 + b.2 + a.1 * b.0)",
+		"    }",
+		"}",
+		"",
+		"struct Flip;",
+		"impl MapMonoid for Flip {",
+		"    type M = InvCount;",
+		"    type F = bool;",
+		"    fn identity_map() -> Self::F { false }",
+		"    fn mapping(f: &Self::F, x: &<Self::M as Monoid>::S) -> <Self::M as Monoid>::S {",
+		"        if *f { (x.1, x.0, x.0 * x.1 - x.2) } else { *x }",
+		"    }",
+		"    fn composition(f: &Self::F, g: &Self::F) -> Self::F { f ^ g }",
+		"}",
+		"",
+		"let mut seg = LazySegtree::<Flip>::from(vec![(0u64, 0u64, 0u64); n]); // 各要素(1,0,0)or(0,1,0)で初期化",
+		"// 区間反転 + 0/1列の転倒数"
+		]
+	},
+  	"2部グラフ判定": {
+		"prefix": ["bipartite", "2部グラフ判定"],
+		"body": "fn is_bipartite(graph: &Vec<Vec<usize>>) -> bool {\n    let n = graph.len();\n    let mut color = vec![None; n];\n    for start in 0..n {\n        if color[start].is_none() {\n            let mut stack = vec![start];\n            color[start] = Some(true);\n            while let Some(node) = stack.pop() {\nfor &neighbor in &graph[node] {\n                    if color[neighbor].is_none() {\n                        color[neighbor] = Some(!color[node].unwrap());\n                        stack.push(neighbor);\n                    } else if color[neighbor] == color[node] {\n                        return false;\n                    }\n                }\n            }\n        }\n    }\n    true\n}\n",
+		"description": "与えられたグラフが2部グラフかどうかを判定する関数"
+	},
+	"LIS": {
+		"prefix": ["lis", "LIS"],
+		"body": "fn lis(sequence: &Vec<i64>) -> Vec<i64> {\n    let mut dp = Vec::new();\n    for &x in sequence {\n        match dp.binary_search(&x) {\n            Ok(_) => continue,\n            Err(pos) => {\n                if pos == dp.len() {\n                    dp.push(x);\n                } else {\n                    dp[pos] = x;\n                }\n            }\n        }\n    }\n    dp\n}\n",
+		"description": "与えられた数列の最長増加部分列(LIS)を求める関数"
+	},
+	"動的セグメント木": {
+		"prefix": ["dynamic_segment_tree", "動的セグメント木"],
+		"body": "struct MinCount;\nimpl Monoid for MinCount {\n    type S = (i64, i64); // (最小値, その個数)\n    fn identity() -> Self::S { (i64::MAX, 0) }\n    fn binary_operation(a: &Self::S, b: &Self::S) -> Self::S {\n        if a.0 < b.0 { *a }\n        else if a.0 > b.0 { *b }\n        else { (a.0, a.1 + b.1) }\n    }\n}\n",
+		"description": "動的セグメント木のMonoid定義"
+	},
+	"遅延伝搬反転可能乱択平衡二分探索木": {
+		"prefix": ["treap", "遅延伝搬反転可能乱択平衡二分探索木"],
+		"body": "//! 遅延伝播・反転可能・乱択平衡二分探索木 (Implicit Treap / RBST)\n//!\n//! 配列を「木構造」として保持し、以下をすべて O(log N) (期待値) で行える:\n//!   - 任意位置への要素の挿入 / 削除            ← セグ木にはできない\n//!   - 区間の一括更新 (作用素の適用, LazySegtreeのapply_rangeと同じ)\n//!   - 区間の反転 (reverse)                     ← セグ木にはできない\n//!   - 区間の集約値取得 (fold, LazySegtreeのprodと同じ)\n//!   - 木の分割 (split) / 結合 (merge) を基本操作として持つ\n//!\n//! ac_library::MapMonoid と同じ考え方で「値のモノイド」と「作用」を1つの\n//! トレイトにまとめている。追加で reverse() を要求する点だけが違う。\n\nuse std::mem::swap;\n\n/// 値の集約(モノイド)と、区間への作用(マッピング)を定義するトレイト。\npub trait MapMonoid {\n    /// 集約される値の型 (区間の集約結果)\n    type S: Clone;\n    /// 区間に適用する作用の型\n    type F: Clone;\n\n    /// Sの単位元\n    fn identity() -> Self::S;\n    /// Sの二項演算 (結合律を満たすこと)\n    fn op(a: &Self::S, b: &Self::S) -> Self::S;\n    /// 区間反転時に集約値Sをどう変換するか。\n    /// 和・min・max・xorなど「可換」な演算はデフォルト実装(そのまま返す)でよい。\n    /// 文字列連結・行列積など「非可換」な演算では左右を入れ替える処理を書く。\n    fn reverse(x: &Self::S) -> Self::S {\n        x.clone()\n    }\n\n    /// Fの単位元 (何もしない作用)\n    fn identity_map() -> Self::F;\n    /// Sに作用Fを適用する\n    fn mapping(f: &Self::F, x: &Self::S) -> Self::S;\n    /// 作用の合成: 「先にgを適用、後にfを適用」した結果と同じ効果になるようにする\n    fn composition(f: &Self::F, g: &Self::F) -> Self::F;\n}\n\n// --- 優先度生成用の乱数 (xorshift64) ---\nstruct Xorshift(u64);\nimpl Xorshift {\n    fn new() -> Self {\n        Xorshift(0x2545_F491_4F6C_DD1D)\n    }\n    fn next(&mut self) -> u64 {\n        let mut x = self.0;\n        x ^= x << 13;\n        x ^= x >> 7;\n        x ^= x << 17;\n        self.0 = x;\n        x\n    }\n}\n\nstruct Node<M: MapMonoid> {\n    val: M::S,  // このノード単体の値\n    acc: M::S,  // 部分木全体の集約値\n    lazy: M::F, // 未反映の作用\n    rev: bool,  // 反転フラグ\n    priority: u64,\n    size: usize,\n    left: Option<Box<Node<M>>>,\n    right: Option<Box<Node<M>>>,\n}\n\nimpl<M: MapMonoid> Node<M> {\n    fn new(val: M::S, priority: u64) -> Self {\n        Node {\n            acc: val.clone(),\n            val,\n            lazy: M::identity_map(),\n            rev: false,\n            priority,\n            size: 1,\n            left: None,\n            right: None,\n        }\n    }\n}\n\nfn size<M: MapMonoid>(node: &Option<Box<Node<M>>>) -> usize {\n    node.as_ref().map_or(0, |n| n.size)\n}\n\nfn acc<M: MapMonoid>(node: &Option<Box<Node<M>>>) -> M::S {\n    node.as_ref().map_or(M::identity(), |n| n.acc.clone())\n}\n\n/// 子を更新した後、部分木サイズ・集約値を再計算する\nfn update<M: MapMonoid>(node: &mut Box<Node<M>>) {\n    node.size = 1 + size::<M>(&node.left) + size::<M>(&node.right);\n    node.acc = M::op(&M::op(&acc::<M>(&node.left), &node.val), &acc::<M>(&node.right));\n}\n\n/// 未反映の反転フラグ・作用を子に伝播する\nfn push_down<M: MapMonoid>(node: &mut Box<Node<M>>) {\n    if node.rev {\n        swap(&mut node.left, &mut node.right);\n        if let Some(l) = node.left.as_mut() {\n            l.rev ^= true;\n            l.val = M::reverse(&l.val);\n            l.acc = M::reverse(&l.acc);\n        }\n        if let Some(r) = node.right.as_mut() {\n            r.rev ^= true;\n            r.val = M::reverse(&r.val);\n            r.acc = M::reverse(&r.acc);\n        }\n        node.rev = false;\n    }\n    let f = node.lazy.clone();\n    node.lazy = M::identity_map();\n    if let Some(l) = node.left.as_mut() {\n        apply_node::<M>(l, &f);\n    }\n    if let Some(r) = node.right.as_mut() {\n        apply_node::<M>(r, &f);\n    }\n}\n\nfn apply_node<M: MapMonoid>(node: &mut Box<Node<M>>, f: &M::F) {\n    node.val = M::mapping(f, &node.val);\n    node.acc = M::mapping(f, &node.acc);\n    node.lazy = M::composition(f, &node.lazy);\n}\n\n/// 木を先頭k個 [0,k) と残り [k,size) に分割する\nfn split<M: MapMonoid>(\n    node: Option<Box<Node<M>>>,\n    k: usize,\n) -> (Option<Box<Node<M>>>, Option<Box<Node<M>>>) {\n    match node {\n        None => (None, None),\n        Some(mut n) => {\n            push_down::<M>(&mut n);\n            let ls = size::<M>(&n.left);\n            if k <= ls {\n                let (l, r) = split::<M>(n.left.take(), k);\n                n.left = r;\n                update::<M>(&mut n);\n                (l, Some(n))\n            } else {\n                let (l, r) = split::<M>(n.right.take(), k - ls - 1);\n                n.right = l;\n                update::<M>(&mut n);\n                (Some(n), r)\n            }\n        }\n    }\n}\n\n/// 2つの木を結合する (左木の全要素が右木より前という前提)\nfn merge<M: MapMonoid>(l: Option<Box<Node<M>>>, r: Option<Box<Node<M>>>) -> Option<Box<Node<M>>> {\n    match (l, r) {\n        (None, r) => r,\n        (l, None) => l,\n        (Some(mut l), Some(mut r)) => {\n            if l.priority > r.priority {\n                push_down::<M>(&mut l);\n                l.right = merge::<M>(l.right.take(), Some(r));\n                update::<M>(&mut l);\n                Some(l)\n            } else {\n                push_down::<M>(&mut r);\n                r.left = merge::<M>(Some(l), r.left.take());\n                update::<M>(&mut r);\n                Some(r)\n            }\n        }\n    }\n}\n\npub struct RBST<M: MapMonoid> {\n    root: Option<Box<Node<M>>>,\n    rng: Xorshift,\n}\n\nimpl<M: MapMonoid> RBST<M> {\n    pub fn new() -> Self {\n        RBST { root: None, rng: Xorshift::new() }\n    }\n\n    /// 配列から構築する O(N log N)\n    pub fn build(v: Vec<M::S>) -> Self {\n        let mut t = Self::new();\n        for x in v {\n            let n = t.len();\n            t.insert(n, x);\n        }\n        t\n    }\n\n    pub fn len(&self) -> usize {\n        size::<M>(&self.root)\n    }\n\n    pub fn is_empty(&self) -> bool {\n        self.len() == 0\n    }\n\n    /// 位置pに値xを挿入する (0 <= p <= len())\n    pub fn insert(&mut self, p: usize, x: M::S) {\n        let new_node = Some(Box::new(Node::new(x, self.rng.next())));\n        let root = self.root.take();\n        let (l, r) = split::<M>(root, p);\n        self.root = merge::<M>(merge::<M>(l, new_node), r);\n    }\n\n    /// 位置pの要素を削除する\n    pub fn erase(&mut self, p: usize) {\n        let root = self.root.take();\n        let (l, r) = split::<M>(root, p);\n        let (_, r) = split::<M>(r, 1);\n        self.root = merge::<M>(l, r);\n    }\n\n    /// 位置pの値を取得する\n    pub fn get(&mut self, p: usize) -> M::S {\n        let root = self.root.take();\n        let (l, mid_r) = split::<M>(root, p);\n        let (mid, r) = split::<M>(mid_r, 1);\n        let val = mid.as_ref().unwrap().val.clone();\n        self.root = merge::<M>(merge::<M>(l, mid), r);\n        val\n    }\n\n    /// 位置pの値をxに設定する\n    pub fn set(&mut self, p: usize, x: M::S) {\n        let root = self.root.take();\n        let (l, mid_r) = split::<M>(root, p);\n        let (_mid, r) = split::<M>(mid_r, 1);\n        let new_mid = Some(Box::new(Node::new(x, self.rng.next())));\n        self.root = merge::<M>(merge::<M>(l, new_mid), r);\n    }\n\n    /// 区間[l, r)の集約値を取得する\n    pub fn fold(&mut self, l: usize, r: usize) -> M::S {\n        let root = self.root.take();\n        let (a, bc) = split::<M>(root, l);\n        let (b, c) = split::<M>(bc, r - l);\n        let result = acc::<M>(&b);\n        self.root = merge::<M>(merge::<M>(a, b), c);\n        result\n    }\n\n    /// 区間[l, r)に作用fを適用する\n    pub fn apply(&mut self, l: usize, r: usize, f: M::F) {\n        let root = self.root.take();\n        let (a, bc) = split::<M>(root, l);\n        let (mut b, c) = split::<M>(bc, r - l);\n        if let Some(node) = b.as_mut() {\n            apply_node::<M>(node, &f);\n        }\n        self.root = merge::<M>(merge::<M>(a, b), c);\n    }\n\n    /// 区間[l, r)を反転する\n    pub fn reverse(&mut self, l: usize, r: usize) {\n        let root = self.root.take();\n        let (a, bc) = split::<M>(root, l);\n        let (mut b, c) = split::<M>(bc, r - l);\n        if let Some(node) = b.as_mut() {\n            node.rev ^= true;\n            node.val = M::reverse(&node.val);\n            node.acc = M::reverse(&node.acc);\n        }\n        self.root = merge::<M>(merge::<M>(a, b), c);\n    }\n\n    /// 配列として復元する (デバッグ・出力用)\n    pub fn to_vec(&mut self) -> Vec<M::S> {\n        let mut result = Vec::with_capacity(self.len());\n        let root = self.root.take();\n        self.root = Self::collect(root, &mut result);\n        result\n    }\n\n    fn collect(node: Option<Box<Node<M>>>, out: &mut Vec<M::S>) -> Option<Box<Node<M>>> {\n        match node {\n            None => None,\n            Some(mut n) => {\n                push_down::<M>(&mut n);\n                n.left = Self::collect(n.left.take(), out);\n                out.push(n.val.clone());\n                n.right = Self::collect(n.right.take(), out);\n                update::<M>(&mut n);\n                Some(n)\n            }\n        }\n    }\n}\n\n// ========================= 使用例 =========================\n\n/// 例1: 区間加算 + 区間和 (可換なのでreverseはデフォルト実装のままでよい)\nstruct RangeAddRangeSum;\nimpl MapMonoid for RangeAddRangeSum {\n    type S = (i64, i64); // (合計, 要素数)\n    type F = i64;\n\n    fn identity() -> Self::S {\n        (0, 0)\n    }\n    fn op(a: &Self::S, b: &Self::S) -> Self::S {\n        (a.0 + b.0, a.1 + b.1)\n    }\n    // fn reverse(x: &Self::S) -> Self::S { x.clone() } // デフォルトのままでOK(和は可換)\n\n    fn identity_map() -> Self::F {\n        0\n    }\n    fn mapping(f: &Self::F, x: &Self::S) -> Self::S {\n        (x.0 + f * x.1, x.1)\n    }\n    fn composition(f: &Self::F, g: &Self::F) -> Self::F {\n        f + g\n    }\n}\n\nfn main() {\n    let init: Vec<(i64, i64)> = vec![1, 2, 3, 4, 5].into_iter().map(|v| (v, 1)).collect();\n    let mut t = RBST::<RangeAddRangeSum>::build(init);\n    // 現在の配列: [1, 2, 3, 4, 5]\n\n    t.insert(2, (100, 1)); // 位置2に100を挿入\n    println!(\"{:?}\", t.to_vec()); // [(1,1),(2,1),(100,1),(3,1),(4,1),(5,1)]\n\n    t.erase(0); // 先頭を削除\n    println!(\"{:?}\", t.to_vec()); // [(2,1),(100,1),(3,1),(4,1),(5,1)]\n\n    t.apply(0, 2, 10); // 区間[0,2)に+10\n    println!(\"{:?}\", t.to_vec()); // [(12,1),(110,1),(3,1),(4,1),(5,1)]\n\n    t.reverse(1, 4); // 区間[1,4)を反転\n    println!(\"{:?}\", t.to_vec()); // [(12,1),(4,1),(3,1),(110,1),(5,1)]\n\n    let (sum, _len) = t.fold(0, t.len());\n    println!(\"total sum = {}\", sum);\n}\n",
+	}
+
+}
